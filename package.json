@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://emmanuelkumah.github.io/ci-cd-testing/",
+  "homepage": "https://vikashdobhal.github.io/githubaction-workflow/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
