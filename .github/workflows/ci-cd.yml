@@ -20,7 +20,7 @@ jobs:
         with:
           name: production-files
           path: ./dist
-           # Deploy Job
+  # Deploy Job
   deploy:
     # Add a dependency to the build job
     needs: build
@@ -35,5 +35,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.MY_WORKFLOW }}
+          github_token: ${{ secrets.CI_CMY_WORKFLOWD_TOKEN }}
           publish_dir: ./dist

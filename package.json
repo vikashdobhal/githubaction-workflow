@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vikashdobhal.github.io/githubaction-workflow/",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,5 +23,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "vite": "^5.0.0"
-  }
+  },
+  "homepage": "https://vikashdobhal.github.io/githubaction-workflow/"
 }
