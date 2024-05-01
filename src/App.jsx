@@ -16,6 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <h1>Welcome To my First CI/CD workflow with github action!!</h1>
+        <h2>This is start of github actions</h2>
       </div>
     </>
   )
